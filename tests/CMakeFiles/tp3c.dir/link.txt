@@ -1,1 +1,0 @@
-/usr/bin/cc     CMakeFiles/tp3c.dir/tp3_correction.c.o  -o tp3c  -L/net/cremi/aperigno/PROJET_TECHNO_L3/ptl3iug/lib/_x11 -Wl,-rpath,/net/cremi/aperigno/PROJET_TECHNO_L3/ptl3iug/lib/_x11 -rdynamic ../libei.a -leibase -lallegro -lallegro_image -lallegro_color -lallegro_font -lallegro_ttf -lm 
