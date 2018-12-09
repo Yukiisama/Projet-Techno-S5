@@ -1,0 +1,61 @@
+\hypertarget{structei__touch__event__t}{}\section{ei\+\_\+touch\+\_\+event\+\_\+t Struct Reference}
+\label{structei__touch__event__t}\index{ei\+\_\+touch\+\_\+event\+\_\+t@{ei\+\_\+touch\+\_\+event\+\_\+t}}
+
+
+The event parameter for mouse-\/related event types.  
+
+
+
+
+{\ttfamily \#include $<$ei\+\_\+event.\+h$>$}
+
+
+
+Collaboration diagram for ei\+\_\+touch\+\_\+event\+\_\+t\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=171pt]{structei__touch__event__t__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{structei__touch__event__t_a396ee9581e6e58e3462da797516ae928}\label{structei__touch__event__t_a396ee9581e6e58e3462da797516ae928}} 
+\hyperlink{structei__point__t}{ei\+\_\+point\+\_\+t} \hyperlink{structei__touch__event__t_a396ee9581e6e58e3462da797516ae928}{where}
+\begin{DoxyCompactList}\small\item\em Where the touch was at the time of the event. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{structei__touch__event__t_af155f4e0e04c9a97ec519e1dbd5b1422}\label{structei__touch__event__t_af155f4e0e04c9a97ec519e1dbd5b1422}} 
+\hyperlink{structei__point__t}{ei\+\_\+point\+\_\+t} \hyperlink{structei__touch__event__t_af155f4e0e04c9a97ec519e1dbd5b1422}{speed}
+\begin{DoxyCompactList}\small\item\em Movement speed in pixels. \end{DoxyCompactList}\item 
+int \hyperlink{structei__touch__event__t_a328a41ee9952d545b22c78047eaf09f6}{touch\+\_\+id}
+\item 
+\hyperlink{ei__types_8h_a383b9af13bd6a0a893096ead3c4d8e28}{ei\+\_\+bool\+\_\+t} \hyperlink{structei__touch__event__t_ad1ac5fff1b97acd2ef179412a753a517}{primary}
+\begin{DoxyCompactList}\small\item\em it will stay the same for events from the same finger until the touch ends. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The event parameter for mouse-\/related event types. 
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{structei__touch__event__t_ad1ac5fff1b97acd2ef179412a753a517}\label{structei__touch__event__t_ad1ac5fff1b97acd2ef179412a753a517}} 
+\index{ei\+\_\+touch\+\_\+event\+\_\+t@{ei\+\_\+touch\+\_\+event\+\_\+t}!primary@{primary}}
+\index{primary@{primary}!ei\+\_\+touch\+\_\+event\+\_\+t@{ei\+\_\+touch\+\_\+event\+\_\+t}}
+\subsubsection{\texorpdfstring{primary}{primary}}
+{\footnotesize\ttfamily \hyperlink{ei__types_8h_a383b9af13bd6a0a893096ead3c4d8e28}{ei\+\_\+bool\+\_\+t} ei\+\_\+touch\+\_\+event\+\_\+t\+::primary}
+
+
+
+it will stay the same for events from the same finger until the touch ends. 
+
+Whether this is the only/first touch or an additional touch. \mbox{\Hypertarget{structei__touch__event__t_a328a41ee9952d545b22c78047eaf09f6}\label{structei__touch__event__t_a328a41ee9952d545b22c78047eaf09f6}} 
+\index{ei\+\_\+touch\+\_\+event\+\_\+t@{ei\+\_\+touch\+\_\+event\+\_\+t}!touch\+\_\+id@{touch\+\_\+id}}
+\index{touch\+\_\+id@{touch\+\_\+id}!ei\+\_\+touch\+\_\+event\+\_\+t@{ei\+\_\+touch\+\_\+event\+\_\+t}}
+\subsubsection{\texorpdfstring{touch\+\_\+id}{touch\_id}}
+{\footnotesize\ttfamily int ei\+\_\+touch\+\_\+event\+\_\+t\+::touch\+\_\+id}
+
+An identifier for this touch. If supported by the device 
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/\hyperlink{ei__event_8h}{ei\+\_\+event.\+h}\end{DoxyCompactItemize}

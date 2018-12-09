@@ -1,0 +1,4 @@
+<map id="ei_rect_t" name="ei_rect_t">
+<area shape="rect" id="node2" href="$structei__size__t.html" title="A 2&#45;D size with integer dimensions. " alt="" coords="5,5,80,32"/>
+<area shape="rect" id="node3" href="$structei__point__t.html" title="A 2&#45;D point with integer coordinates. " alt="" coords="105,5,183,32"/>
+</map>

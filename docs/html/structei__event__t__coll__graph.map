@@ -1,0 +1,8 @@
+<map id="ei_event_t" name="ei_event_t">
+<area shape="rect" id="node2" href="$structei__app__event__t.html" title="The event parameter for application defined event types. " alt="" coords="5,109,116,136"/>
+<area shape="rect" id="node3" href="$structei__touch__event__t.html" title="The event parameter for mouse&#45;related event types. " alt="" coords="140,109,261,136"/>
+<area shape="rect" id="node4" href="$structei__point__t.html" title="A 2&#45;D point with integer coordinates. " alt="" coords="245,5,324,32"/>
+<area shape="rect" id="node5" href="$structei__mouse__event__t.html" title="The event parameter for mouse&#45;related event types. " alt="" coords="286,109,414,136"/>
+<area shape="rect" id="node6" href="$structei__key__event__t.html" title="The event parameter for keyboard&#45;related event types. " alt="" coords="439,109,549,136"/>
+<area shape="rect" id="node7" href="$structei__display__event__t.html" title="The event parameter for display&#45;related event types. " alt="" coords="574,109,705,136"/>
+</map>

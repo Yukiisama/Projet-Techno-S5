@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/tp1.dir/tp1.c.o  -o tp1  -L/net/cremi/aperigno/PROJET_TECHNO_L3/ptl3iug/lib/_x11 -Wl,-rpath,/net/cremi/aperigno/PROJET_TECHNO_L3/ptl3iug/lib/_x11 -rdynamic -leibase -lallegro -lallegro_image -lallegro_color -lallegro_font -lallegro_ttf -lm 

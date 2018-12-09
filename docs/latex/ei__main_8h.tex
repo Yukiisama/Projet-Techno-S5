@@ -1,0 +1,43 @@
+\hypertarget{ei__main_8h}{}\section{include/ei\+\_\+main.h File Reference}
+\label{ei__main_8h}\index{include/ei\+\_\+main.\+h@{include/ei\+\_\+main.\+h}}
+
+
+Declares the \char`\"{}ei\+\_\+main\char`\"{} function\+: the main function of programs built with the libei.  
+
+
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{ei__main_8h_a439ac1da07a00a0abff8d762e562c4ec}{ei\+\_\+main} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em The main function of the program. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Declares the \char`\"{}ei\+\_\+main\char`\"{} function\+: the main function of programs built with the libei. 
+
+\begin{DoxyAuthor}{Author}
+Created by François Bérard on 30.\+12.\+11. Copyright 2011 Ensimag. All rights reserved. 
+\end{DoxyAuthor}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{ei__main_8h_a439ac1da07a00a0abff8d762e562c4ec}\label{ei__main_8h_a439ac1da07a00a0abff8d762e562c4ec}} 
+\index{ei\+\_\+main.\+h@{ei\+\_\+main.\+h}!ei\+\_\+main@{ei\+\_\+main}}
+\index{ei\+\_\+main@{ei\+\_\+main}!ei\+\_\+main.\+h@{ei\+\_\+main.\+h}}
+\subsubsection{\texorpdfstring{ei\+\_\+main()}{ei\_main()}}
+{\footnotesize\ttfamily int ei\+\_\+main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+The main function of the program. 
+
+Programmers must not define their main function in a function called \char`\"{}main\char`\"{}, because the \char`\"{}main\char`\"{} function is defined by S\+DL and linked with in the libeibase library.
+
+
+\begin{DoxyParams}{Parameters}
+{\em argc,argv} & The parameters that were passed the the \char`\"{}main\char`\"{} function.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An error code\+: 0 means ok, 1 means error. 
+\end{DoxyReturn}

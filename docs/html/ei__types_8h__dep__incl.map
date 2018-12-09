@@ -1,0 +1,4 @@
+<map id="include/ei_types.h" name="include/ei_types.h">
+<area shape="rect" id="node2" href="$ei__event_8h.html" title="Allows the binding and unbinding of callbacks to events. " alt="" coords="5,80,132,107"/>
+<area shape="rect" id="node3" href="$hw__interface_8h.html" title="Low level interface with the graphic hadware. This interface is based on the SDL library. " alt="" coords="157,80,309,107"/>
+</map>
