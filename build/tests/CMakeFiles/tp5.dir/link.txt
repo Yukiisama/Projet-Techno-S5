@@ -1,1 +1,0 @@
-/usr/bin/cc     CMakeFiles/tp5.dir/tp5.c.o  -o tp5  -L/net/cremi/aperigno/PROJET_TECHNO_L3/ptl3iug/lib/_x11 -Wl,-rpath,/net/cremi/aperigno/PROJET_TECHNO_L3/ptl3iug/lib/_x11 -rdynamic -lm -lm ../libei.a -leibase -lallegro -lallegro_image -lallegro_color -lallegro_font -lallegro_ttf -lm -leibase -lallegro -lallegro_image -lallegro_color -lallegro_font -lallegro_ttf 

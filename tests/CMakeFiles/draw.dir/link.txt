@@ -1,2 +1,0 @@
-/usr/bin/ar qc libdraw.a  CMakeFiles/draw.dir/__/src/ei_draw.c.o
-/usr/bin/ranlib libdraw.a

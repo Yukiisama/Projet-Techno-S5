@@ -1,2 +1,0 @@
-/usr/bin/ar qc libei.a  CMakeFiles/ei.dir/src/ei_draw.c.o
-/usr/bin/ranlib libei.a
