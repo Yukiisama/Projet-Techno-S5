@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/tp5_correc.dir/tp5_correction.c.o  -o tp5_correc  -L/net/cremi/aperigno/PROJET_TECHNO_L3/ptl3iug/lib/_x11 -Wl,-rpath,/net/cremi/aperigno/PROJET_TECHNO_L3/ptl3iug/lib/_x11 -rdynamic -lm -lm -lm 
