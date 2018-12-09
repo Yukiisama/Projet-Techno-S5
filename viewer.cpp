@@ -11,9 +11,13 @@ Viewer::Viewer(ei_size_t size):
     _size(size),
     _scalingFactor(0.5),
     _growing(true),
-    _rectangle(size)
+    _rectangle(size),
+    _square(size)
     {
-    
+    Shape * r = &_rectangle;
+    Shape * s = &_square;
+    generic_shape.push_back(*r);
+    generic_shape.push_back(*s);
     _red.red = 255;
     _red.green = 0;
     _red.blue = 0;
@@ -25,10 +29,15 @@ Viewer::~Viewer(){
 
 void Viewer::display(ei_surface_t surface){
     const ei_size_t r_size = _rectangle.getSize();
+    const ei_size_t s_size = _square.getSize();
     ei_surface_t r = hw_surface_create(surface, &r_size);
+    ei_surface_t s = hw_surface_create(surface, &s_size);
     hw_surface_lock(r);
     ei_fill(r, &_red, EI_TRUE);
     _rectangle.draw(surface,r);
+    hw_surface_lock(s);
+    ei_fill(s, &_red, EI_TRUE);
+    _rectangle.draw(surface,s);
 }
 
 void Viewer::updateScene() 

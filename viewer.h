@@ -4,6 +4,9 @@
 #include "Square.h"
 #include "ei_types.h"
 #include "hw_interface.h"
+#include <vector>
+using namespace std;
+
 
 class Viewer
 {
@@ -26,9 +29,11 @@ private:
     float _scalingFactor;
     bool _growing;
     ei_color_t _red;
+    Square _square; // to add in vector 
     Rectangle _rectangle;   //Can be replace by Square _rectangle if you want a square (Square herited of Shape)
     int width;
     int height;
+    vector<Shape> generic_shape;
 };
 
 #endif
